@@ -1,0 +1,15 @@
+{
+  "name": "somekinda-game",
+  "version": "1.0.0",
+  "description": "Game Project",
+  "main": "entry point",
+  "scripts": {
+    "test": "enter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "enter"
+  },
+  "author": "",
+  "license": "ISC"
+}
