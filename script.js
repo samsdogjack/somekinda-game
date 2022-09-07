@@ -1,6 +1,8 @@
 let player= "player";
 
 
+//which fuction for random generator 
+
 //Math.floor(Math.random() * 7);
 
 function rollTheDice() {
@@ -26,4 +28,5 @@ function rollTheDice() {
         else {
             document.querySelector("h1").innerHTML
                             = (player1 + " WINS!");
+                        
         }
