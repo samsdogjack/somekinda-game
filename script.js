@@ -1,4 +1,7 @@
-let player= "player";
+//trying for 2 players but maybe will only do 1 player.
+
+var player1 = "player1";
+var player2 = "player2";
 
 
 //which fuction for random generator 
