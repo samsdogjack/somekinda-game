@@ -30,3 +30,5 @@ function rollTheDice() {
                             = (player1 + " WINS!");
                         
         }
+    }, 2500);
+}
