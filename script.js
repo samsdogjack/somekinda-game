@@ -3,6 +3,13 @@
 var player1 = "player1";
 var player2 = "player2";
 
+function editNames() {
+    player1 = prompt("Change Player1 name");
+    player2 = prompt("Change player2 name");
+
+    document.querySelector("p.Player1").innerHTML = player1;
+    document.querySelector("p.Player2").innerHTML = player2;
+}
 
 //which fuction for random generator 
 
@@ -33,5 +40,5 @@ function rollTheDice() {
                             = (player1 + " WINS!");
                         
         }
-    }, 2500);
+    }, 1500);
 }
