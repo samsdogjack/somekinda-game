@@ -1,44 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap");
+//background-image: url('./background-images/graphPaper.png')
+
+//I am trying to import a background image.
+// scss variables!
+//   $background-image: url("./background-images/graphPaper.png");
+//   $primary-color: #5eff0e;
+//   $secondary-color: #ff8700;
+//   $fonts: Arial, Helvetica, Serif;
+
+
+
+// .element {
+//   $background-image: url(./background-images/graphPaper.png);
+//   $background-size: cover;
+//   $background-color: #4c6c97;
+// }
 
 body {
- background-image: url("./background-images/graphPaper.png");
-    background-color: #486fa9;
+ $background-image: url("./background-images/graphPaper.png");
+    background-color: #025af3;
     background-size: cover;
 }
 
 h1 {
-    margin: 30px;
-    font-family: "Roboto Slab", cursive;
-    text-shadow: 5px 0 #232931;
-    font-size: 4.5rem;
-    color: #4ecca3;
-    text-align: center;
+  margin: 30px;
+  font-family: "Roboto Slab", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4.5rem;
+  color: #4ecca3;
+  text-align: center;
 }
 
 .butn {
-    background: #4c6c97;
-    font-family: "Roboto Slab", cursive;
-    border-radius: 7px;
-    color: #ffff;
-    font-size: 30px;
-    padding: 16px 25px 16px 25px;
-    text-decoration: none;
-    
+  background: #4c6c97;
+  font-family: "Roboto Slab", cursive;
+  border-radius: 7px;
+  color: #ffff;
+  font-size: 30px;
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
 }
 
 .butn:hover {
-    background: #232931;
-    text-decoration: none;
+  background: #232931;
+  text-decoration: none;
 }
 
 .dice {
-    text-align: center;
-    display: inline-block;
-    margin: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
 }
 
 .container {
-    width: 70%;
-    margin: auto;
-    text-align: center;
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
