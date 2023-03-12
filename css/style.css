@@ -1,17 +1,49 @@
-/* Error: Undefined mixin.
- *   ,
- * 4 |     @include background-image("./scss/graphPaper.png");
- *   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss/style.scss 4:5  root stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: Undefined mixin.\a   \2577 \a 4 \2502      @include background-image("./scss/graphPaper.png");\a   \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss/style.scss 4:5  root stylesheet';
+body {
+ /* background-image: url("./graphPaper.png"); */
+    background-color: #486fa9;
+    background-image: linear-gradient(315deg, #486fa9 0%, #2e2e2e 74%);
+    font-family: "Source Sans Pro", sans-serif;
+    color: #ffff;
+    font-size: 1.5rem;
+    background-image: image("graphPaper.png");
+    background-size: cover;
+}
+
+h1 {
+    margin: 30px;
+    font-family: "Roboto Slab", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4.5rem;
+    color: #4ecca3;
+    text-align: center;
+}
+
+.butn {
+    background: #4c6c97;
+    font-family: "Roboto Slab", cursive;
+    border-radius: 7px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+    
+}
+
+.butn:hover {
+    background: #232931;
+    text-decoration: none;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
