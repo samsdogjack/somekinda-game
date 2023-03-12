@@ -1,24 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap");
-//background-image: url('./background-images/graphPaper.png')
 
-//I am trying to import a background image.
-// scss variables!
-//   $background-image: url("./background-images/graphPaper.png");
-//   $primary-color: #5eff0e;
-//   $secondary-color: #ff8700;
-//   $fonts: Arial, Helvetica, Serif;
-
-
-
-// .element {
-//   $background-image: url(./background-images/graphPaper.png);
-//   $background-size: cover;
-//   $background-color: #4c6c97;
-// }
+.element{
+    @include background-image("./scss/graphPaper.png");
+  }
 
 body {
- $background-image: url("./background-images/graphPaper.png");
-    background-color: #025af3;
+ //background-image: url("graphPaper.png");
+    background-color: #3ca09e;
     background-size: cover;
 }
 
