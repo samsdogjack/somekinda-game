@@ -6,3 +6,4 @@
  Highest score will win
  Hand drawn enviroment
  *choose style of dice
+# somekinda-game
