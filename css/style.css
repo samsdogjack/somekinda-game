@@ -3,11 +3,9 @@
 body {
  /* background-image: url("./graphPaper.png"); */
     background-color: #486fa9;
-    background-image: linear-gradient(315deg, #486fa9 0%, #2e2e2e 74%);
     font-family: "Source Sans Pro", sans-serif;
     color: #ffff;
     font-size: 1.5rem;
-    background-image: image("graphPaper.png");
     background-size: cover;
 }
 
