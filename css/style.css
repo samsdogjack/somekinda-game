@@ -9,19 +9,24 @@ body {
     background-size: cover;
 }
 
-h1 {
+/* h1 {
     margin: 30px;
     font-family: "Roboto Slab", cursive;
     text-shadow: 5px 0 #232931;
     font-size: 4.5rem;
-    color: #4ecca3;
+    color: #36ed08;
     text-align: center;
+    
 }
+
+h2 {
+    font-size: 2.8 rem;
+   } */
 
 .butn {
     background: #4c6c97;
     font-family: "Roboto Slab", cursive;
-    border-radius: 7px;
+    border-radius: 45px;
     color: #ffff;
     font-size: 30px;
     padding: 16px 25px 16px 25px;
@@ -44,4 +49,16 @@ h1 {
     width: 70%;
     margin: auto;
     text-align: center;
+}
+
+
+.img1 {
+    width: 100px;
+    height: 100px;
+    object-position: center;
+}
+
+.img2 {
+    width: 100px;
+    height: 100px;
 }
